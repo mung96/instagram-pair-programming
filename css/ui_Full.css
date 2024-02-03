@@ -93,7 +93,7 @@ main {
     flex: 1;
     /* text-align: center; */
     justify-content: center;
-    margin-left: 200px;
+    margin-left: 35px;
 }
 
 .mid {
@@ -215,7 +215,7 @@ main {
 }
 
 .postcard_slide>img {
-    min-width: 550px;
+    min-width: 470px;
 
 }
 

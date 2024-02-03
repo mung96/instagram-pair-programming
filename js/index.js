@@ -42,6 +42,7 @@ function init () {
  
 };
 function clickLike(){
+  console.log("하트");
   if(!check){
     heart.src="img/icon_Heart.svg";
     check=true;
@@ -50,7 +51,6 @@ function clickLike(){
     heart.src="img/icon_RedHeart.png";
     check=false;
   }
-
 
 }
 
