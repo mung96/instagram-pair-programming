@@ -19,9 +19,7 @@
     .navbar{
         display: none;
     }
-    .mid{
-        margin-top: 15px;
-    }
+
 
     
     header{
@@ -133,7 +131,10 @@
     .mid {
         display: flex;
         flex-direction: column;
-        width: 630px;
+        width: 630px; 
+        margin-top: 15px;
+        padding-bottom: 10px;
+        
 
     }
 
@@ -322,9 +323,7 @@
         display: none;
     }
 
-    .mid{
-        padding-bottom: 10px;            
-    }
+
 
 
 
