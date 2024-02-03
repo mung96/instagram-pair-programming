@@ -95,6 +95,7 @@ main {
     display: flex;
     flex-direction: column;
     width: 630px;
+    margin-left: 5px;
 
 }
 

@@ -6,71 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>인스타그램</title>
 
-    <link rel="stylesheet" href="fonts.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
 
-    <link rel="stylesheet" href="figure1.css" media="screen and (min-width:1264px)" />
-    <link rel="stylesheet" href="figure2.css" media="screen and (min-width:512px) and (max-width:1264px)" />
-    <link rel="stylesheet" href="figure3.css" media="screen and (min-width:400px) and (max-width:700px)" />
+    <link rel="stylesheet" href="css/ui_Full.css" media="screen and (min-width:1100px)" />
+    <link rel="stylesheet" href="css/ui_Middle.css" media="screen and (min-width:700px) and (max-width:1100px)" />
+    <link rel="stylesheet" href="css/ui_Mobile.css" media="screen and (min-width:400px) and (max-width:700px)" />
 
 
 
 
 </head>
+<nav class="navbar">
+    <div class="navbar_top">
+        Instagram
+    </div>
 
-<body>
-    <!--왼쪽 navbar 부분-->
-    <div class="navbar">
-        <div class="navbar_top">
-            Instagram
+
+    <div class="navbar_contents">
+        <div class="navbar_contents_item">
+            <img src="img/icon_Home.svg" alt="" class="navbar_contents_item_icon">
+            <span class="navbar_contents_item_text">홈</span>
         </div>
-
-
-        <div class="navbar_contents">
-            <div class="navbar_contents_item">
-                <img src="img/icon_Home.svg" alt="" class="navbar_contents_item_icon">
-                <span class="navbar_contents_item_text">홈</span>
-            </div>
-            <div class="navbar_contents_item">
-                <img src="img/icon_Search.svg" alt="" class="navbar_contents_item_icon">
-                <span class="navbar_contents_item_text">검색</span>
-            </div>
-            <div class="navbar_contents_item">
-                <img src="img/icon_Explore.svg" alt="" class="navbar_contents_item_icon">
-                <span class="navbar_contents_item_text">탐색 탭</span>
-            </div>
-            <div class="navbar_contents_item">
-                <img src="img/icon_Reels.svg" alt="" class="navbar_contents_item_icon">
-                <span class="navbar_contents_item_text">릴스</span>
-            </div>
-            <div class="navbar_contents_item">
-                <img src="img/icon_Send.svg" alt="" class="navbar_contents_item_icon">
-                <span class="navbar_contents_item_text">메시지</span>
-            </div>
-            <div class="navbar_contents_item">
-                <img src="img/icon_Heart.svg" alt="" class="navbar_contents_item_icon">
-                <span class="navbar_contents_item_text">알림</span>
-            </div>
-            <div class="navbar_contents_item">
-                <img src="img/icon_Add.svg" alt="" class="navbar_contents_item_icon">
-                <span class="navbar_contents_item_text">만들기</span>
-            </div>
-            <div class="navbar_contents_item">
-                <img src="img/icon_Profile.svg" alt="" class="navbar_contents_item_icon">
-                <span class="navbar_contents_item_text">프로필</span>
-            </div>
+        <div class="navbar_contents_item">
+            <img src="img/icon_Search.svg" alt="" class="navbar_contents_item_icon">
+            <span class="navbar_contents_item_text">검색</span>
         </div>
-
-        <div class="navbar_bottom">
-            <div class="navbar_bottom_item">
-                <img src="img/icon_Thread.svg" alt="" class="navbar_bottom_item_icon">
-                <span class="navbar_bottom_item_text">스레드</span>
-            </div>
-            <div class="navbar_bottom_item">
-                <img src="img/icon_Home.svg" alt="" class="navbar_bottom_item_icon">
-                <span class="navbar_bottom_item_text">더보기</span>
-            </div>
+        <div class="navbar_contents_item">
+            <img src="img/icon_Explore.svg" alt="" class="navbar_contents_item_icon">
+            <span class="navbar_contents_item_text">탐색 탭</span>
+        </div>
+        <div class="navbar_contents_item">
+            <img src="img/icon_Reels.svg" alt="" class="navbar_contents_item_icon">
+            <span class="navbar_contents_item_text">릴스</span>
+        </div>
+        <div class="navbar_contents_item">
+            <img src="img/icon_Send.svg" alt="" class="navbar_contents_item_icon">
+            <span class="navbar_contents_item_text">메시지</span>
+        </div>
+        <div class="navbar_contents_item">
+            <img src="img/icon_Heart.svg" alt="" class="navbar_contents_item_icon">
+            <span class="navbar_contents_item_text">알림</span>
+        </div>
+        <div class="navbar_contents_item">
+            <img src="img/icon_Add.svg" alt="" class="navbar_contents_item_icon">
+            <span class="navbar_contents_item_text">만들기</span>
+        </div>
+        <div class="navbar_contents_item">
+            <img src="img/icon_Profile.svg" alt="" class="navbar_contents_item_icon">
+            <span class="navbar_contents_item_text">프로필</span>
         </div>
     </div>
+
+    <div class="navbar_bottom">
+        <div class="navbar_bottom_item">
+            <img src="img/icon_Thread.svg" alt="" class="navbar_bottom_item_icon">
+            <span class="navbar_bottom_item_text">스레드</span>
+        </div>
+        <div class="navbar_bottom_item">
+            <img src="img/icon_Home.svg" alt="" class="navbar_bottom_item_icon">
+            <span class="navbar_bottom_item_text">더보기</span>
+        </div>
+    </div>
+</nav>
+<body>
+    <!--왼쪽 navbar 부분-->
+   
 
 
     <!--중앙부 main부분-->
@@ -371,9 +371,9 @@
             </div>
         </div>
     </main>
-    <script src="index.js"></script>
-    <script src="recommand.js"></script>
-    <script src="storyfeed.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/recommand.js"></script>
+    <script src="js/storyfeed.js"></script>
 </body>
 
 </html>
