@@ -17,7 +17,6 @@ body {
     display: none;
 }
 
-/* navbar 부분 시작 */
 .navbar {
     position: fixed;
     z-index: 1;
@@ -75,14 +74,10 @@ body {
 }
 
 
-
-
-/* main 부분 시작 */
 main {
     padding-left: 240px;
     display: flex;
     flex: 1;
-    /* text-align: center; */
     justify-content: center;
     margin-left: 35px;
 }
@@ -95,7 +90,6 @@ main {
 
 }
 
-/* 인스타 스토리(storyfeed) 부분 시작 */
 .storyfeed {
     display: flex;
     gap: 12px;
@@ -132,7 +126,6 @@ main {
 
 
 
-/* 인스타 게시글(postcard) 부분 시작 */
 .postcards {
     display: flex;
     flex-direction: column;
@@ -150,7 +143,6 @@ main {
 
 
 
-/* 게시글(postcard) 윗 부분 */
 .postcard_top {
     display: flex;
     justify-content: space-between;
@@ -192,7 +184,6 @@ main {
 
 
 
-/* 게시글(postcard) 사진 부분 */
 .postcard_content {
     position: relative;
     height: 468px;
@@ -213,7 +204,6 @@ main {
 
 }
 
-/* 버튼*/
 .btn-next,
 .btn-next:active,
 .btn-next:focus {
@@ -261,8 +251,6 @@ main {
     right: 18px;
     top: 50%;
 }
-
-/* 게시글(postcard) 아래 부분 */
 
 
 .postcard_bottom_icons {
@@ -326,7 +314,6 @@ main {
 }
 
 
-/*추천영역 시작 */
 .recommandbar {
     margin-top: 30px;
     width: 335px;
