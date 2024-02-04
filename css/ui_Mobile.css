@@ -186,10 +186,6 @@
         margin-top: 2px;
     }
 
-
-
-
-    /* 인스타 게시글(postcard) 부분 시작 */
     .postcards {
         display: flex;
         flex-direction: column;
@@ -207,7 +203,6 @@
 }
 
 
-    /* 게시글(postcard) 윗 부분 */
     .postcard_top {
         display: flex;
         justify-content: space-between;

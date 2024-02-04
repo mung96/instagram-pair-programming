@@ -1,38 +1,29 @@
 let storyCheck=[false,false,false];
-const storyProfiles = document.quarySelectorAll(".storyfeed_item_profile");
+const storyProfiles = document.querySelectorAll(".storyfeed_item_profile");
 
 
 function storyClickHandler(i){
     
-    if(!storyCheck){
-      storyProfiles[i].style.border = "2px solid rainbow";
+    if(!storyCheck[i]){
+      storyProfiles[i].style.border = "3px solid grey";
+      storyCheck[i]=true;
+      
     }
     else{
-      storyProfiles[i].style.border = "2px solid gray";
+      storyProfiles[i].style.border = "3px solid transparent";
+      storyCheck[i]=false;
     }
-    Clicks.forEach((profile) => {
-        button.addEventListener('click', clicked);
-    })
+    
 }
 
-/*
+
 function init () {
-    storyClick.addEventListener("click", buttonClickHandler);
+  for(let i=0;i<3;i++){
+    storyProfiles[i].addEventListener("click", ()=>storyClickHandler(i));
+  }
+    
    
 }
-*/
-
-function clickLike(){
-    if(!check){
-      heart.src="img/icon_Heart.svg";
-    }
-    else{
-      heart.src="img/icon_RedHeart.png";
-    }
-}
-
-
-
 
 init();
 
