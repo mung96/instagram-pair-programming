@@ -218,6 +218,8 @@
     border: 2px solid #FFDC80;
     border-radius: 50%;
     
+}
+
 .btn-next,
 .btn-next:active,
 .btn-next:focus {
@@ -323,13 +325,11 @@
 }
 
 
-    .recommandbar {
+.recommandbar {
         display: none;
         margin-top: 30px;
-        width: 335px;
-
-
-    }
-   .footer {
+        width: 335px
+}
+.footer {
     display: none;
-   }
+}
